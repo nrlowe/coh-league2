@@ -10,7 +10,7 @@ import { FrontpageComponent } from './frontpage/frontpage.component';
 
 const routes: Routes = [
   //if loading have home be displayed
-  { path: '',   redirectTo: 'frontpageComponent', pathMatch: 'full' },
+  { path: '',   redirectTo: 'frontpage', pathMatch: 'full' },
   { path: 'frontpage', component: FrontpageComponent},
   { path: 'tournaments', component: TournamentsComponent},
   { path: 'rankings', component: RankingsComponent},

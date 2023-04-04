@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./frontpage.component.css']
 })
 export class FrontpageComponent {
-
+  //get active tournaments / upcoming tournaments - get player rankings
+  //show live twitch streams? 
 }
