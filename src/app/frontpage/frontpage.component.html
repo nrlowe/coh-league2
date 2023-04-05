@@ -1,10 +1,28 @@
-<div class="d-flex align-items-center justify-content-center frontpage-container">
-    <div class="row frontpage-row">
-        <div class="column-fluid col d-flex live-tour">
-            Live tournaments? 
+<!-- frontpage container -->
+<div class="container align-items-center justify-content-center frontpage-container">
+    <!-- tournament/ranking row -->
+    <div class="row tour-rank-row">
+        <!-- active tournament row -->
+        <div class="column-fluid col-6">
+            <div class="row tour-row">
+                <div class="column-fluid col-12 tour-col">
+                    <div *ngFor = "let livetour of liveTournaments" class="tour-div">
+                        {{livetour.name}}
+                        {{livetour.game}}
+                        {{livetour.date}}
+                    </div>>
+                </div>
+            </div>
+            <!-- upcoming tournament row -->
+            <div class="row tour-row">
+                <div class="column-fluid col-12 tour-col">
+                    Upcoming tournaments? 
+                </div>
+            </div>
         </div>
-           
-        <div class="column-fluid col d-flex upcoming-tour">
+        
+        <!-- rankings col    -->
+        <div class="column-fluid col-6 d-flex">
             player rankings
             swdoknhfgvosd
             fdsnokgvnho
@@ -12,10 +30,12 @@
             dasoijhbfoidn
             doibfo
         </div>
+       
     </div>
-    <div class= "row frontpage-row">
+    <!-- live twitch row -->
+    <div class= "row twitch-row">
         <div class="column-fluid col d-flex">
-            Live twitch channels? for coh2/ coh3? (hosting tournaments get priority)
+            Twitch Integretation for CoH 2/ 3
         </div>
     </div>
 </div>

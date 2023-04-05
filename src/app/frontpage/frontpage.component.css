@@ -1,12 +1,16 @@
-.frontpage-row {
-    width: 50vh;
-    background-color: bisque;
+.frontpage-container {
+    width: 100vh;
     color: aqua;
-    height: 50vh;
 }
-.live-tour{
-    height: 50vh;
+.tour {
+    width: 90vh;
 }
-.upcoming-tour{
-
+.tour-rank-row{
+    height: 70vh;
+}
+.twitch-row{
+    height: 70vh;
+}
+.tour-col{
+    
 }
