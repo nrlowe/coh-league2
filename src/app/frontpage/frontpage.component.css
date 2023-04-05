@@ -1,16 +1,44 @@
+
 .frontpage-container {
     width: 100vh;
-    color: aqua;
 }
-.tour {
-    width: 90vh;
-}
+
 .tour-rank-row{
-    height: 70vh;
+    height: auto;
+    width: 100vh;
+    padding: 4vh 4vh 4vh 4vh;
+    width:auto;
+    color: white;
 }
 .twitch-row{
     height: 70vh;
 }
-.tour-col{
-    
+.livetour-row{
+    /* border-radius: 15px 50px 15px 50px;
+    border-color: gray;
+    border-style: solid; */
+    border-left: 0.5vh solid red;
+    padding-bottom: 0.5vh;
+    height: auto;
+}
+
+.livetour-row:nth-child(even){
+    background-color: rgb(34, 34, 35);
+}
+
+.livetour-row:hover{
+    box-shadow: inset 0 0 100px 100px rgba(186, 184, 184, 0.1);
+}
+.livetour-name{
+    color: white;
+  
+}
+.livetour-game{
+    background-color: blueviolet;
+}
+.livetour-date{
+    background-color: cadetblue;
+}
+.rank-col{
+    background-color: purple;
 }
